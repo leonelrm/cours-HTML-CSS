@@ -4,6 +4,10 @@
     list-style-type: none;
     text-decoration: none; 
 }
+body{
+    font-family: ubuntu, sanserif;
+    font-size: 22px;
+}
 .home {
     border: 2px solid black;
     border-radius: 8px;
@@ -13,49 +17,72 @@
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    background: rgb(44, 44, 163); 
+    background: rgb(141, 141, 192); 
     margin: 5px;   
 }
 .about{
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 3fr 5fr;
 }
 .image{
-    margin-left: 120px;
+    margin-left: 180px;
     margin-bottom: 10px;
     margin-top: 10px;
    text-align: center;
 }
-.information{   
+.information{     
     list-style: none; 
-    margin-left: 50px;
+    margin-left: 40px;
     text-align: center;
 }
-.experience{
+.items{      
+    color: black;
     border: 2px solid black;
     border-radius: 8px;
-    background: red;
+    background:rgb(141, 141, 192);
     margin: 5px;
 }
-.experience h3{
+.items:hover{
+    opacity: 0.9;
+}
+.items h3{
     text-align: center;
     text-decoration: underline;
+    font-display: bold;
+    font-size: 1.6em;
+    margin: 10px;   
 }
-.skills{
+.skills, .languages{
+    padding: 20px;
+}
+.experience{
+    padding: 20px;   
+}
+/*-------contact----------------*/
+.contact-container{    
+    color: black;
     border: 2px solid black;
     border-radius: 8px;
-    background: yellow;
-    margin: 5px;
+    background:rgb(141, 141, 192);
+}
+.contact-container h1{
+    text-align: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.form-container .form-group{
+    display: grid;
+    grid-template-columns: 100px 1fr;
 }
 
-.languages{
-    border: 2px solid black;
-    border-radius: 8px;
-    background: blue;
-    margin: 5px;
-}
-@media screen and (max-width:486px){
+@media screen and (max-width:566px){
     .about{
         display: block;        
+    }
+    .form-container .form-group input{
+        text-align: center;
     }
 }
