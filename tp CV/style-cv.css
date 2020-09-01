@@ -5,7 +5,7 @@
     text-decoration: none; 
 }
 body{
-    font-family: ubuntu, sanserif;
+    font-family: ubuntu, sans-serif;
     font-size: 22px;
 }
 .home {
@@ -48,12 +48,13 @@ body{
 .items h3{
     text-align: center;
     text-decoration: underline;
-    font-display: bold;
+    font-weight: 600;
     font-size: 1.6em;
     margin: 10px;   
 }
 .skills, .languages{
     padding: 20px;
+    
 }
 .experience{
     padding: 20px;   
@@ -77,6 +78,7 @@ body{
     display: grid;
     grid-template-columns: 100px 1fr;
 }
+/*--------------end of contact--------------- */
 
 @media screen and (max-width:566px){
     .about{
