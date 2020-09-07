@@ -22,7 +22,7 @@ body{
 }
 .about{
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 3fr 6fr;
 }
 .image{
     margin-left: 120px;
