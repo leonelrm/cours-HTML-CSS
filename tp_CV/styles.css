@@ -1,0 +1,142 @@
+*{
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*list-style-type: none;*/
+    /*text-decoration: none; */
+}
+body{
+    margin: 70px 10px 10px 10px;
+    font-family: ubuntu, sans-serif;
+    font-size: 22px;
+}
+.home {
+    border: 2px solid black;
+    border-radius: 8px;
+    /*text-align: center;*/    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+    background: rgb(202, 202, 236);
+    margin: 20px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin: 10px;
+}
+.image{
+    margin: 10px 10px 10px 50px;   
+   text-align: right;
+}
+.information{     
+    margin: 10px 50px 10px 50px;       
+    
+}
+.information h1{     
+    font-family: sans-serif;    
+    font-weight: 600;
+}
+.items{      
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    background:rgb(202, 202, 236);
+    margin: 10px;
+}
+.items:hover{
+    opacity: 0.9;
+}
+.items h3{
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin: 10px;   
+}
+.skills, .languages, .formation{
+    padding: 30px;
+    
+}
+.experience{
+
+    margin: 10px;
+    padding: 20px;   
+}
+.card{
+    margin: 10px;
+}
+.formation{
+    margin-top: 40px;
+    text-align: center;
+}
+.formation1 span{
+    margin-left: 50px;
+}
+
+/* .clients{
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr 4fr;
+} */
+/*-------contact----------------*/
+.contact-container{      
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    background:rgb(202, 202, 236);
+    padding: 20px;
+    margin: 20px;
+}
+.contact-container h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.form-container .form-group{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+/*--------------end of contact--------------- */
+
+ @media screen and (max-width:982px){
+    .about{
+        display: block;        
+    }
+    .form-container .form-group input{
+        text-align: center;
+    }
+    .image{
+        margin: 10px 200px 10px 200px;   
+        text-align: center;
+        width: 180px;
+    }
+    .information{    
+        text-align: center;
+        margin: 10px 50px 10px 100px;
+    }
+} 
+/*@media screen and (max-width:758px){*/
+/*    .about{*/
+/*        display: block;*/
+/*    }*/
+/*    .form-container .form-group input{*/
+/*        text-align: center;*/
+/*    }*/
+/*    .image{*/
+/*        margin: 10px 150px 10px 150px;*/
+/*        text-align: center;*/
+/*        width: 180px;*/
+/*    }*/
+/*    .information{*/
+/*        !* text-align: center; *!*/
+/*        margin: 10px 50px 10px 50px;*/
+
+/*    }*/
+/*}*/
