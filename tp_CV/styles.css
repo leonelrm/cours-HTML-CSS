@@ -122,21 +122,21 @@ body{
         margin: 10px 50px 10px 100px;
     }
 } 
-/*@media screen and (max-width:758px){*/
-/*    .about{*/
-/*        display: block;*/
-/*    }*/
-/*    .form-container .form-group input{*/
-/*        text-align: center;*/
-/*    }*/
-/*    .image{*/
-/*        margin: 10px 150px 10px 150px;*/
-/*        text-align: center;*/
-/*        width: 180px;*/
-/*    }*/
-/*    .information{*/
-/*        !* text-align: center; *!*/
-/*        margin: 10px 50px 10px 50px;*/
+@media screen and (max-width:758px){
+    .about{
+        display: block;
+    }
+    .form-container .form-group input{
+        text-align: center;
+    }
+    .image{
+        margin: 10px 150px 10px 150px;
+        text-align: center;
+        width: 180px;
+    }
+    .information{
+        /* text-align: center; */
+        margin: 10px 50px 10px 50px;
 
-/*    }*/
+    }
 /*}*/
